@@ -41,6 +41,7 @@ Unterschiede werden farblich hervorgehoben:
 #### MacOS
 
 pip install pdf2image pillow numpy
+
 brew install poppler
 
 ## 🚀 Verwendung (CLI)
@@ -51,9 +52,9 @@ python pdfdiff.py datei1.pdf datei2.pdf
 
 #### Ergebnis
 
-diff_out/diff_page_1.png
-diff_out/diff_page_2.png
-...
+- diff_out/diff_page_1.png
+- diff_out/diff_page_2.png
+- ...
 
 ### Output-Verzeichnis setzen
 
@@ -62,7 +63,8 @@ python pdfdiff.py datei1.pdf datei2.pdf --out results
 ### Content-only-Modus aktivieren
 
 - Vergleicht nur schwarzen Inhalt (Text & Bilder). Der Hintergrund bleibt weiß.
-  python pdfdiff.py datei1.pdf datei2.pdf --content-only
+
+python pdfdiff.py datei1.pdf datei2.pdf --content-only
 
 ### Komplettvergleich (inkl. Hintergrund)
 
