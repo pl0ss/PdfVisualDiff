@@ -16,6 +16,12 @@ Unterschiede werden farblich hervorgehoben:
 
 ---
 
+## Beispielbild:
+
+![Beispiel: PDF Diff](example/diff_page_1.png)
+
+---
+
 ## ✨ Features
 
 - Pixelgenauer Vergleich auf Seitenbasis
